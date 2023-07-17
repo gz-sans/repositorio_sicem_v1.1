@@ -1,0 +1,153 @@
+/* Estilos base */
+body {
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+.logo {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #239e3c;
+    padding: px;
+}
+
+.logo button:hover {
+    cursor: pointer;
+}
+
+.btnsup{
+    background-color: #239e3c;
+    margin-left: 10px;
+    padding: 5px; 
+    width: 75%;
+    height: 120px;
+    align-items: center;
+    justify-items: center;
+    display: inline-flex;
+}
+
+.btnsup button {
+    width: 20%;
+    height: 95%;
+    color: #ffffff;
+    background-color: #239e3c;
+    border-style: none;
+    font-size: 30px;
+}
+
+/* Estilos del contenido principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+    padding: 20px;
+    flex: 1;
+}
+
+.formu label {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formu input,
+.formu select,
+.formu textarea {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.formu button {
+    background-color: #07e033;
+    width: 100%;
+    height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.formu button:hover {
+    background-color: #05c02e;
+}
+
+.btngrupo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.extra button {
+    margin-top: 4%;
+    width: 100%;
+    height: 110px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #239e3c;
+    border-style: none;
+    cursor: pointer;
+}
+
+.extra button:hover {
+    background-color: #05c02e;
+}
+
+/* Estilos del pie de página */
+.end0 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.end1 {
+    background-color: #239e3c;
+    margin-left: 2%;
+    margin-right: 5px;
+    width: 100%;
+    flex: 1;
+}
+
+.end1 h1 {
+    margin-top: 5%;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.lista {
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.end2 {
+    font-size: 20px;
+    background-color: #239e3c;
+    margin-left: 5px;
+    width: 100%;
+    color: #ffffff;
+}

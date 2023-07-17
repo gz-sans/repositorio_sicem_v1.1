@@ -1,0 +1,241 @@
+/* Estilos base */
+body {
+    background-color: #DDDDDD;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+.logo {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #239e3c;
+    padding: px;
+}
+
+.logo button:hover {
+    cursor: pointer;
+}
+
+.btnsup{
+    background-color: #239e3c;
+    margin-left: 10px;
+    padding: 5px; 
+    width: 75%;
+    height: 120px;
+    align-items: center;
+    justify-items: center;
+    display: inline-flex;
+}
+
+.btnsup button {
+    width: 20%;
+    height: 95%;
+    color: #ffffff;
+    background-color: #239e3c;
+    border-style: none;
+    font-size: 30px;
+}
+
+/* Estilos del contenido principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
+    padding: 20px;
+    flex: 1;
+}
+
+.formu label {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formu input,
+.formu select,
+.formu textarea {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.formu button {
+    background-color: #07e033;
+    width: 100%;
+    height: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.formu button:hover {
+    background-color: #05c02e;
+}
+
+.btngrupo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.extra button {
+    margin-top: 4%;
+    width: 100%;
+    height: 110px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #239e3c;
+    border-style: none;
+    cursor: pointer;
+}
+
+.extra button:hover {
+    background-color: #05c02e;
+}
+
+/* Estilos del pie de página */
+.end0 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.end1 {
+    background-color: #239e3c;
+    margin-left: 2%;
+    margin-right: 5px;
+    width: 100%;
+    flex: 1;
+}
+
+.end1 h1 {
+    margin-top: 5%;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.lista {
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0;
+}
+
+.end2 {
+    font-size: 20px;
+    background-color: #239e3c;
+    margin-left: 5px;
+    width: 100%;
+    color: #ffffff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table-hover tr:hover {
+    background-color: #e5e5e5;
+  }
+  
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+  }
+  
+  .bg-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Icons */
+  i.bi {
+    vertical-align: middle;
+  }
+
+  .lista-usuarios {
+    /* Estilos para la lista de usuarios */
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .lista-usuarios li {
+    margin-bottom: 5px;
+  }
+  .end0 {
+    /* Estilos para el footer */
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
