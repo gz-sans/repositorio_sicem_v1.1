@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/shady.css">
+    <style>
+        /* Estilos del logo */
+        .logo img {
+            max-width: 30%;
+            height: auto;
+            /* Aquí puedes modificar el tamaño de la imagen */
+            width: 80px;
+        }
+    </style>
     <title>Registrar elementos</title>
 </head>
 <body>
@@ -14,6 +23,9 @@
             <img src="assets/source/sena.png" alt="Sena Logo">
             <h1> | Sistema Inventario</h1>
             <div class="btnsup"> 
+                <button><li><a href="registro.jsp">registrar</a></li></button>
+                <button><li><a href="listarUsu.jsp">lista</a></li></button>
+                <span><a class="link" href="elemento?accion=registrar">registrar Elementos</a></span>
                 <span><a class="link" href="elemento?accion=listar">Consulta Elementos</a></span>
                 <button>Toma virtual</button>
                 <button>Acceso</button>
@@ -24,7 +36,7 @@
     </header>
     <nav>
         <div class="contenedor">
-            <form class="formu" action="elemento" method="post">
+            <form class="formu" action="elementos" method="post">
                 <label for="nPlaca">Nombre</label>
                 <input type="text" name="NombreElemento" id="NombreElemento">
                 <label for="tipoElemento">Numero de placa:</label>
@@ -35,12 +47,14 @@
                 <input type="text" name="ValorElemento" id="ValorElemento">
                 <label for="fechaIngreso">Fecha de Ingreso:</label>
                 <input type="text" name="FechaIngresoElemento" id="FechaIngresoElemento">
+                <label for="estadoElemento">Estado del Elemento:</label>
+                <input type="text" name="EstadoElemento" id="EstadoElemento">
                 <label for="numAula">N° Aula:</label>
                 <input type="text" name="NumAula" id="NumAula">
-                <label for="Descripcion" >Descripción:</label>
-                <input type="text" name="Descripcion" id="Descripcion">
-                <label for="estadoElemento">Estado del Elemento:</label>
-                <input type="checkbox" name="chkestado" id="chkestado" checked class="form-check-input">
+                <label for="nombreElemento">Estado:</label>
+                <input type="text" name="NombreElemento" id="NombreElemento">
+                <label for="descripcion" name="descripcion">Descripción:</label>
+                <textarea name="descripcion" id="descripcion"></textarea>
                 <button type="submit" class="link" name="accion" value="add">REGISTRO</button>
             </form>            
             <div class="btngrupo">

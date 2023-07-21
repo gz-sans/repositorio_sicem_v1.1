@@ -14,7 +14,7 @@
             <img src="assets/source/sena.png" alt="Sena Logo">
             <h1> | Sistema Inventario</h1>
             <div class="btnsup"> 
-                <button>Consulta x serial</button>
+                <button><li><a href="registro.jsp">registrar</a></li></button>
                 <button>Toma virtual</button>
                 <button>Acceso</button>
                 <button>Catalogo</button>
