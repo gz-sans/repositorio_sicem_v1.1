@@ -1,0 +1,7 @@
+controller\Categoria.class
+controller\Elementos.class
+model\CategoriaVo.class
+model\CategoriaDao.class
+model\Conexion.class
+model\ElementosDao.class
+model\ElementosVo.class
